@@ -1,1 +1,6 @@
--Dfile.encoding=UTF8 -Dsbt.boot.directory=d:/01_opensource/sbt-lib-repo/ -Dsbt.ivy.home=d:/01_opensource/programmes/sbt/ -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256m
+-Dfile.encoding=UTF8 
+-Dsbt.boot.directory=d:/01_opensource/programmes/sbt/boot
+-Dsbt.ivy.home=d:/01_opensource/programmes/sbt/.ivy 
+-Dsbt.global.base=d:/01_opensource/programmes/sbt/.sbt
+-Dsbt.repository.config=d:/01_opensource/programmes/sbt/repo.properties
+-Dsbt.override.build.repos=true
